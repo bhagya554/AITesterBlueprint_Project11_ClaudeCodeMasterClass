@@ -18,6 +18,14 @@ export const VwoTestUsers = {
     email: 'dummy@test.com',
     password: 'WrongPass123!',
   },
+  emptyUser: {
+    email: '',
+    password: '',
+  },
+  whitespaceEmail: {
+    email: '  spaces@test.com  ',
+    password: 'SomePass123!',
+  },
 };
 
 export const TestData = {
